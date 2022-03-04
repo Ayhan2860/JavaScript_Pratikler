@@ -1,63 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yemek Tarifleri</title>
-</head>
-<body>
-    <!-- Header Start -->
-    <header>
-        <h2>...Çikolata Küpleri...</h2>
-        <p>
-            çikolata küpleri ve şam fıstıklı tadımlık lezzetler... Yalnızca 4 malzeme ile hazırlanan çikolata 
-            küpleri, renli kağıtlar da veya kürdan batırılarak servis edilir. Özellikle kalabalık sofralarda yer verilen çikolata 
-            Küpleri, doğum günü gibi özel etkinliklerde de sunulabilir.
-        </p>
-        <div><span>Tarif:</span> ....</div>
-    </header>
-    <!-- Header End -->
-    <!-- Section Start -->
-    <section>
-        <!-- Section Nav Start -->
-        <nav>
-         <ul>
-             <li><a href="#"><span>Kaç Kişilik: </span>4 kişilik </a></li>
-             <li><a href="#"><span>Hazırlama Süresi: </span>30 dakika </a></li>
-             <li><a href="#"><span>Pişirme Süresi :</span>10 dakika</a></li>
-         </ul>
-        </nav>
-        <!-- Section Nav End -->
-        <!-- Article Start -->
-        <article>
-            <h4>Çikolata Küpleri Tarifi İçin Malzemeler</h4>
-            <ul>
-                <li>350 gr bitter çikolata</li>
-                <li>150 ml krema</li>
-                <li>1 çorba kaşığı tereyağı</li>
-                <li>150 gr şam fıstık(Badem veya fındık da olabilir)</li>
-            </ul>
-        </article>
-        <article>
-            <h4>Çikolata Küpleri Nasıl Yapılır?</h4>
-            <ol>
-                <li>Bitter çikolatayı benmari usulü eritin.</li>
-                <li>Eriyen çikolatanın üzerine krema ve tereyağı ekleyip iyice karıştırıp tenceriyi bir tezgaha alın.</li>
-                <li>Şamfıstıkları havanda çok az dövüp irili ufaklı parçalara bölün.</li>
-                <li>Ufalanan fıstıkları çikolatalı karışıma ekleyip karıştırın.</li>
-                <li>
-                    Hazırladığınız çikolatayı varsa alüminyum hazır bir kare tepsiye, yoksa kenarlarından taşarak
-                    yağlı kağıt yerleştirdiğiniz küçük bir tepsiye dökün.
-                </li>
-                <li>Buzdolabında iki saat bekletin</li>
-                <li>çikolatayı kalıptan çıkartın. Kare parçalara bölün.</li>
-            </ol>
-        </article>
-        <!-- Article End -->
-         <h3>Afiyet Olsun</h3>
-    </section>
-    <!-- Section End -->
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <title>Kodluyoruz Javascript Saat Ödevi</title>
+  </head>
+  <body class="bg-dark">
+    <div class="text-center">
+      <img
+        src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+        alt=""
+        class="rounded"
+      />
+      <div class="text1 text-center">
+        Merhaba, <strong><span id="myName"></span></strong>! Hoş geldin!
+      </div>
+      <div  class="clock " onload="showTime()">
+        <span id="myDate"></span>
+        <br>
+           tarihinde
+         <br>
+           Saat : 
+        <span id="myClock"></span>
+      </div>
+      <div class="text2 text-center">
+         itibari ile
+        <strong>Kodluyoruz Frontend Web Development Patikası</strong>'nın
+        Javascript bölümü 1. Ödevindesiniz.
+      </div>
+    </div>
+    <script src="js/clock.js"></script>
+  </body>
 </html>
