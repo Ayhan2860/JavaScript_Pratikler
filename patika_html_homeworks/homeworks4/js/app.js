@@ -1,6 +1,6 @@
 let taskInput = document.querySelector('#task')
 let taskForm = document.querySelector('#taskForm');
-let taskULDOM = document.querySelector('#list')
+let taskULDOM = document.querySelector('#list');
 
 
 const ui = new UI();
