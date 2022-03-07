@@ -46,4 +46,3 @@ function removeTaskElement(element) {
         storage.removeTaskLocalStorage(liElementDom)
         ui.showAlertUI("Kayıtlı Görev Silindi :(", "success")
 }
-
