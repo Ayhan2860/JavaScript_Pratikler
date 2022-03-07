@@ -38,6 +38,7 @@ function showAllTaskUI() {
     });
 }
 
+
 // Delete from UI and storage when the selected element is double click
 function removeTaskElement(element) {
      let liElementDom = element.target;
