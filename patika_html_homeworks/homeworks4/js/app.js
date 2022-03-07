@@ -47,3 +47,4 @@ function removeTaskElement(element) {
         ui.showAlertUI("Kayıtlı Görev Silindi :(", "success")
 }
 
+
