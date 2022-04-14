@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #202124;
+   
+}
+section{
+    min-height: 75vh;
+}
+.logo{
+    width: 50%;
+    margin: 4em auto 0px auto;
+    display: flex;
+    justify-content: center;
+}
+ .logo img{
+     
+ }
+.google-searching{
+    width: 45%;
+    height: 45px;
+    margin: 1em auto 1em auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #5a5d60;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+ .img{
+    position: absolute;
+    width: 1em;
+    height: 100%;
+}
+
+
+.google-searching .search{
+    left: 2%;
+    top: 0.75em;
+}
+.google-searching .mic{
+    right: 3%;
+    top: 0.3em;
+}
+
+
+.input-control {
+   
+    color: #fff;
+    width: 85%;
+    border: 1px solid #212529;
+    background-color: #212529;
+    background-clip: padding-box;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  
+  .buttons{
+      width: 25%;
+      display: flex;
+      justify-content: space-around;
+      margin: 2em auto;
+  }
+  .buttons button
+  {
+      padding: 0.75em 1.25em;
+      color: #fff;
+      outline: none;
+      border: 1px solid #303134;
+      border-radius: 5px;
+      background: #303134;
+   
+
+  }
+  .buttons button:hover{
+      border: 1px solid #67686c;
+  }
+
+
+  footer{
+      width: 100%;
+      color: #67686c;
+      margin-bottom: 0;
+    
+
+  }
+
+  .country{
+      width: 100%;
+      background: #171717;
+      height: 50px;
+      border-bottom: .2px solid #67686c;
+   
+  }
+  .country p{
+    width: 70px;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .options{
+      width: 100%;
+    border-top: .2px solid #67686c;
+      display: flex;
+      justify-content: space-between;
+      background: #171717;
+  }
+  .options ul li {
+      list-style: none;
+  }
+  .options ul li a{
+   text-decoration: none;
+   color: #67686c;
+   }
+ .options ul
+ {
+     display: flex;
+     justify-content: space-around;
+     padding: 0 10px;
+ }
+
+ .options ul li
+ {
+     
+     text-align: center;
+     padding: 0 10px;
+ }
