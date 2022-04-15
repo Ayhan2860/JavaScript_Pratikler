@@ -1,0 +1,47 @@
+.logo{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.searching-inputs {
+    width: 90%;
+    text-align: center;
+    background: #EEEEEE;
+}
+
+.table{
+    border: none;
+    width: 90%;
+}
+
+table tr  td:nth-child(1)
+{
+    width :37%;
+    background: #7EE5DA;
+    text-align: center;
+}
+
+table tr td:nth-child(2)
+{
+    background: #70CCC2;
+    text-align: center;
+}
+
+table tr td:nth-child(3)
+{
+    background: #62B3AA;
+    text-align: center;
+}
+
+footer{
+    
+    text-align: center;
+}
